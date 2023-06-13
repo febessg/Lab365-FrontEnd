@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.Header {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px;
+    gap: 15px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 13px;
+}
+
+.Header ul {
+ display: flex;
+ flex-direction: row;
+ gap: 15px;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 4px;
+}
+
+.Header a {
+   color: rgba(0,0,0,.87);
+   text-decoration: none;
+}
+
+.Header a:hover {
+    text-decoration: underline;
+}
+
+.Header-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-icon, .perfil-img {
+    padding: 4px;
+    vertical-align: middle;
+}
+
+.Header .perfil-img img {
+    border-radius: 50%;
+}
